@@ -30,7 +30,7 @@ function App() {
     }
   }
   return (
-    <div className="h-screen w-screen flex justify-center flex-col bg-pink-300">
+    <div className="h-screen w-screen flex justify-center flex-col bg-pink-300 overflow-y-scroll">
     {!accepted &&
     <div className="h-auto w-screen flex justify-center  flex-col bg-pink-300">
       <div className='w-[80vw] mx-auto mt-20 mb-10 h-full flex justify-center align-middle'>
