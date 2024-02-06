@@ -43,8 +43,8 @@ function App() {
         <iframe className='w-[80vw] h-[80vw] flex'src="https://giphy.com/embed/JTbsN6f3FDafoQZkpy"  frameBorder="0" ></iframe>
       </div>
       <div className='flex w-[80vw] mx-auto h-full mb-20 text-white'>
-          <button style={{height:`${80*(count+1)}px`, fontSize:`${count < 1 ? 24:24*((count+1)*0.75)}px`}} className='w-1/2 text-4xl rounded-lg bg-green-600 cursor-pointer' onClick={() =>{setAccepted(true)}}>Yes</button>
-          <button className='w-1/2 h-20 text-3xl rounded-lg bg-red-600 cursor-pointer' onClick={() =>{text()}}>{msg}</button>
+          <button style={{height:`${80*(count+1)}px`, fontSize:`${count < 1 ? 24:24*((count+1)*0.75)}px`}} className='w-1/2 text-4xl rounded-lg bg-green-600 cursor-pointer text-wrap' onClick={() =>{setAccepted(true)}}>Yes</button>
+          <button className='w-1/2 h-20 text-2xl rounded-lg bg-red-600 cursor-pointer' onClick={() =>{text()}}>{msg}</button>
       </div>
       </div>
     }
